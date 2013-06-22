@@ -10,6 +10,9 @@ $(document).ready(function () {
   $('.hideclass').click(function(){
     $('.divisionopaque').hide();
     $('.stopbox').hide();
+    $('#dummy').hide();
+    $('#calendarImage').hide();
+    $('#keypadImage').hide();
     clearInterval(timerItself);
     $('#timer').text('0:00');
   });
@@ -30,12 +33,6 @@ $(document).ready(function () {
     $('#headText3').text('My eye is in pain 8/10');
   });
 
-  
-
-
-
-
-
   $('#calendar').click(function(){
     $('.divisionopaque').show();
     $('#calendarImage').show();
@@ -44,7 +41,17 @@ $(document).ready(function () {
     $('.divisionopaque').hide();
     $('#calendarImage').hide();
   });
+
+  $('#keyboard').click(function(){
+    $('.divisionopaque').show();
+    $('#keypadImage').show();
+  });
+  $('#keypadImage').click(function(){
+    $('.divisionopaque').hide();
+    $('#keypadImage').hide();
+  });
 });
+
 
 
 
