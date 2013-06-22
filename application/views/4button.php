@@ -37,7 +37,8 @@ a:active {
 <div id="wrapper">
 		<div class="buttons"><a href="<?php echo $buttons[0]['link'];?>" class="fill-div">
 			<?php echo $buttons[0]['image']; ?><?php echo $buttons[0]['title'];?></a></div>
-		<div class="buttons"><i class="icon-thumbs-down icon-3x"></i>DISCOMFORT</div>
+		<div class="buttons"><a href="<?php echo $buttons[1]['link'];?>" class="fill-div">
+			<?php echo $buttons[1]['image']; ?><?php echo $buttons[1]['title'];?></a></div>
 		<div class="buttons"><a href="<?php echo $buttons[2]['link'];?>" class="fill-div">
 			<?php echo $buttons[2]['image']; ?><?php echo $buttons[2]['title'];?></a></div>
 		<div class="buttons"><a href="<?php echo $buttons[3]['link'];?>" class="fill-div">
