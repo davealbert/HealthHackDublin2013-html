@@ -22,7 +22,7 @@
 				<div class="nav-collapse">
 					<ul class="nav">
 						<li class="active"><a href="/"><i class="icon-home icon-white"></i> Home</a></li>
-						<li><a href="temp">Temp</a></li>
+						<li><a href="/api/data">Data</a></li>
 						<li><a href="#">Link</a></li>
 						<li><a href="#">Link</a></li>
 						<li class="dropdown">
