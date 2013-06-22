@@ -24,9 +24,18 @@ class MyNeeds extends MY_Controller {
 	}
 
 	public function pain($value='') {
-		echo "pain";
+		if ($value === "head") {
+			$data['buttons'] = $this->data_model->head();
+			$this->render_page('1button',$data);
+		} else if ($value === "eye") {
+			$data['buttons'] = $this->data_model->eye();
+			$this->render_page('1button',$data);
+		} else {
+			// echo "pain";
+			$data['buttons'] = $this->data_model->body();
+			$this->render_page('1button',$data);
+		}
 	}
-
 }
 
 /* End of file MyNeeds.php */
