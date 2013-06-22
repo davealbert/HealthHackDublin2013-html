@@ -9,7 +9,7 @@
 					<div style="clear:both;"></div>
 				</div>
 				<!-- <div class="navButton2">HELP</div> -->
-				<a href=""><div class="navButton2"><i class="icon-exclamation icon-3x" style="float:left;"></i><p>HELP</p></div></a>
+				<a href=""><div class="navButton2"><p style="float:left;">HELP</p><i class="icon-exclamation icon-4x"></i></div></a>
 					
 				<div style="clear:both;"></div>
 			</div>
