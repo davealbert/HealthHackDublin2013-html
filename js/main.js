@@ -24,7 +24,14 @@ $(document).ready(function () {
     $('#dummy').hide();
   });
 
-
+  $('#calendar').click(function(){
+    $('.divisionopaque').show();
+    $('#calendarImage').show();
+  });
+  $('#calendarImage').click(function(){
+    $('.divisionopaque').hide();
+    $('#calendarImage').hide();
+  });
 });
 
 
