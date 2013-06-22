@@ -28,6 +28,7 @@ class MyNeeds extends MY_Controller {
 			$data['buttons'] = $this->data_model->head();
 			$this->render_page('1button',$data);
 		} else if ($value === "eye") {
+			$data['update'] = TRUE;
 			$data['buttons'] = $this->data_model->eye();
 			$this->render_page('1button',$data);
 		} else {
