@@ -21,6 +21,18 @@ class Data_model extends CI_Model {
 			$query = $this->db->get('data');
 		}
 
+		return $this->jsonFromQuery($query);
+	}
+
+	public function search($value='') {
+		$this->db->select("*")->from('data');
+		$this->db->like("json_data",$value);
+
+		$query = $this->db->get();
+		return $this->jsonFromQuery($query);
+	}
+
+	private function jsonFromQuery($query='') {
 		$json = array();
 		foreach ($query->result() as $row) {
 			unset($r);
@@ -33,7 +45,4 @@ class Data_model extends CI_Model {
 		}
 		return $json;
 	}
-
-
-
 }
