@@ -13,9 +13,12 @@
 </head>
 <body>
 	<div id="wrapper">
+		<div id="logButton"><i class="icon-file-text-alt icon-3x" style="float:left;"></i><p>LOG</p></div>
 		<div id="pageHeadtext">
-			<p>Text 1 dsbfhhbskfjn debesjhbf fygbsjubf fysebf</p>
-			<p>Text 2 hebfkj dfcdsjb fhbdsbf</p>
-			<p style="font-size:20px;">Text 3 hfbd fhbdbbibfkds fbdkbf fu df</p>
+			<p id="headText1">I want to go to the toilet</p>
+			<hr>
+			<p id="headText2">Can I have ice cubes</p>
+			<hr>
+			<p id="headText3">I feel hungry</p>
 		</div>
 	</div>

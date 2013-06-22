@@ -73,38 +73,46 @@ p.footer{
 
 
 
-
+/*header*/
 #pageHeadtext
 {
 	background-color: #ffffff;
 	width:980px;
-	height:80px;
+	height:100px;
 	padding:22px;
 	color:#2c2c2c;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+#headText1,#headText2
+{
+	font-size:20px;
+	margin: 5px 0;
+}
+#headText3
+{
+	font-size:40px;
+	margin: 5px 0;
+	line-height: 35px;
+}
+hr {
+  border-top: 1px dotted #2c2c2c;
+  color: #2c2c2c;
+  margin: 5px 125px 5px 0;
+  /*height: 1px;*/
+  /*width:50%;*/
 }
 
 
 
 
 
-/*#pageContent
-{
-	padding: 20px 30px 0 30px;
-}
-*/
-/*.colorDiv1
-{
-	background-color: white;
-	width: 460px;
-	height:200px;
-	margin: 10px;
-	float:left;
-	color:#2c2c2c;
-}*/
 
 
 
 
+
+/*navigation*/
 #pageNav
 {
 	padding: 22px 0 0 22px;
@@ -147,6 +155,7 @@ p.footer{
 	font-size:61px;
 	padding:30px 0 0 42px;
 	line-height: 60px;
+	cursor: pointer;
 }
 .divisionopaque
 {
@@ -159,6 +168,7 @@ p.footer{
   left:0px;
   z-index:10;
   display: none;
+  cursor: pointer;
 }
 .stopbox
 {
@@ -168,6 +178,7 @@ p.footer{
   top:34px;
   z-index:20;
   margin-left: -350px;
+  cursor: pointer;
 }
 .stopbox p
 {
@@ -178,3 +189,76 @@ p.footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*pageContent*/
+#pageContent
+{
+	padding: 22px 11px 0 22px;
+	height:460px;
+}
+
+.twoButton {
+	background-color: white;
+	width: 484px;
+	height:410px;
+	margin: 0 11px 0 0;
+	padding-top: 50px;
+	float:left;
+	color:#2c2c2c;
+	font-size: 55px;
+	text-align: center;
+	border-radius:20px;
+}
+#logButton
+{
+	width: 112px;
+	height:65px;
+	position: absolute;
+	color:white;
+	background-color: #2c2c2c;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	padding:22px 0 0 10px;
+	margin-left: 890px;
+}
+#logButton p
+{
+	font-size:30px;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+
+a:link { 
+	text-decoration: none;
+	color:black;
+	}
+a:visited { 
+	text-decoration: none;
+	color:black;
+	}
+a:hover { 
+	text-decoration: none;
+	color:black;
+	}
+a:active { 
+	text-decoration: none;
+	color:black;
+}
+
+
+#dummy
+{
+	z-index:30;
+	display: none;
+	position: absolute;
+	margin-top: -1146px;
+}

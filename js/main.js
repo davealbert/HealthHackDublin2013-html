@@ -13,6 +13,18 @@ $(document).ready(function () {
     clearInterval(timerItself);
     $('#timer').text('0:00');
   });
+
+  $('#logButton').click(function(){
+    $('.divisionopaque').show();
+    $('#dummy').show();
+    $('#dummy').css({"margin-top":"-790px"});
+  });
+  $('#dummy').click(function(){
+    $('.divisionopaque').hide();
+    $('#dummy').hide();
+  });
+
+
 });
 
 
