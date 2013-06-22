@@ -34,28 +34,33 @@ class Data_model extends CI_Model {
 
 	public function myhealth() {
 		$buttons = array();
-		$buttons[] = $this->buttons('pain','/myhealth/pain','<i class="icon-user-md icon-3x"></i>');
-		$buttons[] = $this->buttons('discomfort','javascript:alert("Not available in the ptototype");','<i class="icon-thumbs-down icon-3x"></i>');
-		$buttons[] = $this->buttons('treatment','/myhealth/treatment','<i class="icon-medkit icon-3x"></i>');
-		$buttons[] = $this->buttons('rest','/myhealth/rest','<i class="icon-cloud icon-3x"></i>');
+		$buttons[] = $this->buttons('PAIN','/myhealth/pain','<i class="icon-user-md icon-3x"></i>');
+		$buttons[] = $this->buttons('DISCOMFORT','javascript:alert("Not available in the ptototype");','<i class="icon-thumbs-down icon-3x"></i>');
+		$buttons[] = $this->buttons('TREATMENT','/myhealth/treatment','<i class="icon-medkit icon-3x"></i>');
+		$buttons[] = $this->buttons('REST','/myhealth/rest','<i class="icon-cloud icon-3x"></i>');
 		return $buttons;
 	}
 
 	public function myneeds() {
 		$buttons = array();
-		$buttons[] = $this->buttons('self','javascript:alert("Not available in the ptototype");','<i class="icon-user icon-3x"></i>');
-		$buttons[] = $this->buttons('environment','/myneeds/environment','<i class="icon-cogs icon-3x"></i>');
-		$buttons[] = $this->buttons('family','/myneeds/family','<i class="icon-group icon-3x"></i>');
-		$buttons[] = $this->buttons('pain','/myneeds/pain','<i class="icon-user-md icon-3x"></i>');
+		$buttons[] = $this->buttons('SELF','javascript:alert("Not available in the ptototype");','<i class="icon-user icon-3x"></i>');
+		$buttons[] = $this->buttons('ENVIRONMENT','/myneeds/environment','<i class="icon-cogs icon-3x"></i>');
+		$buttons[] = $this->buttons('FAMILY','/myneeds/family','<i class="icon-group icon-3x"></i>');
+		$buttons[] = $this->buttons('PAIN','/myneeds/pain','<i class="icon-user-md icon-3x"></i>');
 		return $buttons;
 	}
 
 	public function body() {
-		return $this->buttons('body','/myhealth/pain/head','/img/body.png');
+		$buttons = array();
+		$buttons[] = $this->buttons('FRONT','/myhealth/pain/head','/img/body2.png');
+		$buttons[] = $this->buttons('BACK','/myhealth/pain/head','/img/bodyBack.png');
+		return $buttons;
 	}
 
 	public function head() {
-		return $this->buttons('head','/myhealth/pain/eye','/img/head.png');
+		$buttons = array();
+		$buttons[] = $this->buttons('HEAD','/myhealth/pain/eye','/img/head3.png');
+		return $buttons;
 	}
 
 	public function eye() {

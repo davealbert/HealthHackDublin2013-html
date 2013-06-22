@@ -21,7 +21,7 @@ class MyHealth extends MY_Controller {
 		} else {
 			// echo "pain";
 			$data['buttons'] = $this->data_model->body();
-			$this->render_page('2button',$data);
+			$this->render_page('1button',$data);
 		}
 	}
 
