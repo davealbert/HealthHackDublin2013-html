@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="navbar navbar-fixed-top">
+	<!-- <div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -36,7 +36,7 @@
 					<form class="navbar-search pull-right" action="/search">
 						<input type="text" class="search-query span2" placeholder="Search" id="q" name="q">
 					</form>
-				</div><!-- /.nav-collapse -->
-			</div><!-- /.container -->
-		</div><!-- /.navbar-inner -->
-</div><!-- /.navbar -->
+				</div>
+			</div>
+		</div>
+</div>-->
