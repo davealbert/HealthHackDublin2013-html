@@ -21,9 +21,9 @@
 				<p id="timer" style="margin-top:50px;">0:00</p>
 				<p style="margin-top:50px;">minutes</p>
 			</div>
-			<div id="wrapper">
-				<img id="dummy" src="<?php echo base_url();?>img/dummytext.png">
-			</div>
+		</div>
+		<div id="wrapper">
+			<img id="dummy" src="<?php echo base_url();?>img/dummytext.png">
 		</div>
 	</body>
 </html>

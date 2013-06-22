@@ -203,15 +203,15 @@ hr {
 #pageContent
 {
 	padding: 22px 11px 0 22px;
-	height:460px;
+	height:438px;
 }
 
 .twoButton {
 	background-color: white;
 	width: 484px;
-	height:410px;
+	height:398px;
 	margin: 0 11px 0 0;
-	padding-top: 50px;
+	padding-top: 40px;
 	float:left;
 	color:#2c2c2c;
 	font-size: 55px;
