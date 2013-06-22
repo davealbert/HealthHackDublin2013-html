@@ -13,11 +13,15 @@ class MyHealth extends MY_Controller {
 
 	public function pain($value='') {
 		if ($value === "head") {
-			echo "head";
+			$data['buttons'] = $this->data_model->head();
+			$this->render_page('1button',$data);
 		} else if ($value === "eye") {
-			echo "eye";
+			$data['buttons'] = $this->data_model->eye();
+			$this->render_page('1button',$data);
 		} else {
-			echo "pain";
+			// echo "pain";
+			$data['buttons'] = $this->data_model->body();
+			$this->render_page('1button',$data);
 		}
 	}
 

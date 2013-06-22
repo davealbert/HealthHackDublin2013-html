@@ -50,6 +50,18 @@ class Data_model extends CI_Model {
 		return $buttons;
 	}
 
+	public function body() {
+		return $this->buttons('body','/myhealth/pain/head','/img/body.png');
+	}
+
+	public function head() {
+		return $this->buttons('head','/myhealth/pain/eye','/img/head.png');
+	}
+
+	public function eye() {
+		return $this->buttons('eye','/myhealth/rest','/img/eye.png');
+	}
+
 	public function buttons($title, $link, $image)	{
 		$button['title'] = $title;
 		$button['link'] = $link;
