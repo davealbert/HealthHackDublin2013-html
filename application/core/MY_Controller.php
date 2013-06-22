@@ -1,13 +1,14 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class MY_Controller extends CI_Controller {
-  error_reporting(E_ALL);
-  inni_set('display_errors',1);
+  // error_reporting(E_ALL);
+  // inni_set('display_errors',1);
 
   protected $data = array();
 
   function __construct() {
     parent::__construct();
+
 
     // if ((get_class($this) != 'static_pages') && ($this->uri->segment(1) != 'unsupported-browser')) {
     //   if ($this->agent->browser() == 'Internet Explorer' and $this->agent->version() < 7) {
@@ -17,13 +18,6 @@ class MY_Controller extends CI_Controller {
   }
 
   function render_page($view,$data="") {
-    $this->flash->render($this);
-
-  //do this to not repeat in all controllers...
-    // $this->load->model('user_model');
-    // $data['isLoggedIn'] = $this->user_model->is_loggedIn() ? true : false;
-    // $data['isAdmin'] = $this->user_model->is_admin(true) ? true : false;
-
     $this->load->view('templates/header', $data);
     $this->load->view($view, $data);
     $this->load->view('templates/footer', $data);
@@ -37,6 +31,8 @@ class MY_Controller extends CI_Controller {
     header('Content-type: application/json');
     die(json_encode($json));
   }
+
+
 
 
 }
