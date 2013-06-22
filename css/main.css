@@ -8,6 +8,7 @@ body {
 	margin: 40px;
 	font: 13px/20px normal Helvetica, Arial, sans-serif;
 	color: #4F5155;
+  padding-top: 60px; /* When using the navbar-top-fixed */
 }
 
 a {

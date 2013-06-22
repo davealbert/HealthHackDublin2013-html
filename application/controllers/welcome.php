@@ -18,8 +18,7 @@ class Welcome extends MY_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index() {
-		$data['title'] = 'Health Hack Dublin 2013';
-		$this->render_page('welcome_message', $data);
+		$this->render_page('welcome_message');
 	}
 }
 
