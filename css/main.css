@@ -38,10 +38,10 @@ code {
 	padding: 12px 10px 12px 10px;
 }
 
-#body{
+/*#body{
 	margin: 0 15px 0 15px;
-}
-
+}*/
+/*
 p.footer{
 	text-align: right;
 	font-size: 11px;
@@ -49,97 +49,98 @@ p.footer{
 	line-height: 32px;
 	padding: 0 10px 0 10px;
 	margin: 20px 0 0 0;
-}
+}*/
 
 /*#container{
 	margin: 10px;
 	border: 1px solid #D0D0D0;
 	-webkit-box-shadow: 0 0 8px #D0D0D0;
 }*/
+
+.colorWhite
+{
+	color: white;
+}
+
+
 #wrapper
 {
-	min-height: 100%;
-	height:768px;
 	margin: 0 auto 0 auto;/*dimention needed for sticky footer*/
 	color:white;
-	background-color: black;
+	background-color: #2c2c2c;
 	width:1024px;
 }
+
+
+
+
 #pageHeadtext
 {
 	background-color: #ffffff;
-	width:984px;
+	width:980px;
 	height:80px;
-	padding:20px;
-	color:black;
+	padding:22px;
+	color:#2c2c2c;
 }
-#pageContent
+
+
+
+
+
+/*#pageContent
 {
 	padding: 20px 30px 0 30px;
 }
-#pageNav
-{
-	padding: 0 30px 0 30px;
-}
-#pageNavLeft
-{
-	width: 624px;
-	float: left;
-	/*height: 200px;*/
-}
-.colorDiv1
+*/
+/*.colorDiv1
 {
 	background-color: white;
 	width: 460px;
 	height:200px;
 	margin: 10px;
 	float:left;
-	color:black;
-}
-
-
-/*.button1,.button2,.button3,.button6
-{
-	float:left;
-	background-color: white;
-	color:black;
-	margin: 10px 20px;
-}
-.button1
-{
-	width:100px;
-	height:50px;
-}
-.button2
-{
-	width:240px;
-	height:50px;
-}
-.button3
-{
-	width:193px;
-	height:50px;
-}
-.button6
-{
-	width:660px;
-	height:50px;
+	color:#2c2c2c;
 }*/
+
+
+
+
+#pageNav
+{
+	padding: 22px 0 0 22px;
+}
+#pageNavLeft
+{
+	width: 668px;
+	float: left;
+	/*height: 200px;*/
+}
 .navButton1
 {
 	float:left;
 	background-color: white;
-	color:black;
-	margin: 10px;
-	width:292px;
+	color: #2c2c2c;
+	margin: 0 11px 11px 0;
+	padding: 3px 0 0 10px;
+	width:307px;
 	height:50px;
+	border:3px solid white;
+	border-radius:20px;
+}
+.navButton1 p
+{
+	font-size:42px;
+	padding:11px 0 0 54px;
+	
 }
 .navButton2
 {
 	float:right;
-	background-color: white;
-	color:black;
-	margin: 10px;
-	width:320px;
+	background-color: #2c2c2c;
+	color:white;
+	margin: 0 22px 22px 0;
+	width:306px;
 	height:120px;
+	border:3px solid white;
+	border-radius:20px;
 }
