@@ -37,7 +37,7 @@ class Data_model extends CI_Model {
 		$buttons[] = $this->buttons('PAIN','/myhealth/pain','<i class="icon-user-md icon-3x"></i>');
 		$buttons[] = $this->buttons('DISCOMFORT','javascript:alert("Not available in the ptototype");','<i class="icon-thumbs-down icon-3x"></i>');
 		$buttons[] = $this->buttons('TREATMENT','/myhealth/treatment','<i class="icon-medkit icon-3x"></i>');
-		$buttons[] = $this->buttons('REST','/myhealth/rest','<i class="icon-cloud icon-3x"></i>');
+		$buttons[] = $this->buttons('REST','/myhealth/rest','<img style="width:180px;" src="/img/bed.png">');
 		return $buttons;
 	}
 
@@ -64,7 +64,9 @@ class Data_model extends CI_Model {
 	}
 
 	public function eye() {
-		return $this->buttons('eye','/myhealth/rest','/img/eye.png');
+		$buttons = array();
+		$buttons[] = $this->buttons('EYE','/myhealth/pain/eye','/img/eye.png');
+		return $buttons;
 	}
 
 	public function buttons($title, $link, $image)	{

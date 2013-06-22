@@ -12,7 +12,7 @@
 </style>
 
 <div id="wrapper">
-	<a href="<?php echo base_url('myhealth/pain/head');?>">
+	<a href="<?php echo $buttons[0]['link'];?>">
 	<div class="oneButton">
 		<img src="<?php echo $buttons[0]['image'];?>">
 		<?php echo $buttons[0]['title']; ?>
