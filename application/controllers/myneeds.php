@@ -7,7 +7,8 @@ class MyNeeds extends MY_Controller {
 	}
 
 	public function index() {
-		echo "MyNeeds";
+		$data['buttons'] = $this->data_model->myneeds();
+		$this->render_page('4button',$data);
 	}
 
 	public function self($value='') {
