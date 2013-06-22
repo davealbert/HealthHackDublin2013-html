@@ -218,6 +218,22 @@ hr {
 	text-align: center;
 	border-radius:20px;
 }
+.fourbutton {
+	background-color: white;
+	width: 484px;
+	height:203px;
+	margin: 0 11px 11px 0;
+	float:left;
+	color:#2c2c2c;
+	font-size: 55px;
+	text-align: center;
+	border-radius:20px;
+	padding-top: 10px;
+}
+.fourbutton i
+{
+	font-size: 110px;
+}
 #logButton
 {
 	width: 112px;
@@ -239,19 +255,19 @@ hr {
 
 a:link { 
 	text-decoration: none;
-	color:black;
+	color:#2c2c2c;
 	}
 a:visited { 
 	text-decoration: none;
-	color:black;
+	color:#2c2c2c;
 	}
 a:hover { 
 	text-decoration: none;
-	color:black;
+	color:#2c2c2c;
 	}
 a:active { 
 	text-decoration: none;
-	color:black;
+	color:#2c2c2c;
 }
 
 
