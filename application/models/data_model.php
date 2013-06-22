@@ -35,7 +35,7 @@ class Data_model extends CI_Model {
 	public function myhealth() {
 		$buttons = array();
 		$buttons[] = $this->buttons('pain','/myhealth/pain','<i class="icon-user-md icon-3x"></i>');
-		$buttons[] = $this->buttons('discomfort','javascript:alert("Not available in the ptototype");','/img/discomfort.png');
+		$buttons[] = $this->buttons('discomfort','javascript:alert("Not available in the ptototype");','<i class="icon-thumbs-down icon-3x"></i>');
 		$buttons[] = $this->buttons('treatment','/myhealth/treatment','<i class="icon-medkit icon-3x"></i>');
 		$buttons[] = $this->buttons('rest','/myhealth/rest','<i class="icon-cloud icon-3x"></i>');
 		return $buttons;
