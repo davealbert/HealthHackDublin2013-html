@@ -35,17 +35,17 @@ class Data_model extends CI_Model {
 	public function myhealth() {
 		$buttons = array();
 		$buttons[] = $this->buttons('PAIN','/myhealth/pain','<i class="icon-user-md icon-3x"></i>');
-		$buttons[] = $this->buttons('DISCOMFORT','javascript:alert("Not available in the ptototype");','<i class="icon-thumbs-down icon-3x"></i>');
-		$buttons[] = $this->buttons('TREATMENT','/myhealth/treatment','<i class="icon-medkit icon-3x"></i>');
-		$buttons[] = $this->buttons('REST','/myhealth/rest','<img style="width:180px;" src="/img/bed.png">');
+		$buttons[] = $this->buttons('DISCOMFORT','#','<i class="icon-thumbs-down icon-3x"></i>');
+		$buttons[] = $this->buttons('TREATMENT','#','<i class="icon-medkit icon-3x"></i>');
+		$buttons[] = $this->buttons('REST','#','<img style="width:180px;" src="/img/bed.png">');
 		return $buttons;
 	}
 
 	public function myneeds() {
 		$buttons = array();
-		$buttons[] = $this->buttons('SELF','javascript:alert("Not available in the ptototype");','<i class="icon-user icon-3x"></i>');
-		$buttons[] = $this->buttons('ENVIRONMENT','/myneeds/environment','<i class="icon-cogs icon-3x"></i>');
-		$buttons[] = $this->buttons('FAMILY','/myneeds/family','<i class="icon-group icon-3x"></i>');
+		$buttons[] = $this->buttons('SELF','#','<i class="icon-user icon-3x"></i>');
+		$buttons[] = $this->buttons('ENVIRONMENT','#','<i class="icon-cogs icon-3x"></i>');
+		$buttons[] = $this->buttons('FAMILY','#','<i class="icon-group icon-3x"></i>');
 		$buttons[] = $this->buttons('PAIN','/myneeds/pain','<i class="icon-user-md icon-3x"></i>');
 		return $buttons;
 	}
