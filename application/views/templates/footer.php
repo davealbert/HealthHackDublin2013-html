@@ -27,3 +27,7 @@
 		</div>
 	</body>
 </html>
+
+
+
+<!-- <img style="width:180px;" src="<?php echo base_url();?>img/bed.png"> -->
