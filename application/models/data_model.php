@@ -32,6 +32,21 @@ class Data_model extends CI_Model {
 		return $this->jsonFromQuery($query);
 	}
 
+	public function myhealth() {
+		$buttons = array();
+		$buttons[] = $this->buttons('pain','/myhealth/pain','/img/pain.png');
+		$buttons[] = $this->buttons('discomfort','/myhealth/discomfort','/img/discomfort.png');
+		$buttons[] = $this->buttons('treatment','/myhealth/treatment','/img/treatment.png');
+		$buttons[] = $this->buttons('rest','/myhealth/rest','/img/rest.png');
+		return $buttons;
+	}
+	public function buttons($title, $link, $image)	{
+		$button['title'] = $title;
+		$button['link'] = $link;
+		$button['image'] = $image;
+		return $button;
+	}
+
 	private function jsonFromQuery($query='') {
 		$json = array();
 		foreach ($query->result() as $row) {
