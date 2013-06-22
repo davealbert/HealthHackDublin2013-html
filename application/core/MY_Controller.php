@@ -28,6 +28,10 @@ class MY_Controller extends CI_Controller {
   function render_page($view,$data="") {
     $this->load->view('templates/header', $data);
     $this->load->view($view, $data);
+    $uri = uri_string();
+    $parts = explode("/", $uri);
+    array_pop($parts);
+    $data['back_url'] = join("/",$parts);
     $this->load->view('templates/footer', $data);
   }
 
