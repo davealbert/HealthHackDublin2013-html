@@ -24,6 +24,18 @@ $(document).ready(function () {
     $('#dummy').hide();
   });
 
+  $('#changeText').click(function(){
+    $('#headText1').text('Can I have ice cubes');
+    $('#headText2').text('I feel hungry');
+    $('#headText3').text('My eye is in pain 8/10');
+  });
+
+  
+
+
+
+
+
   $('#calendar').click(function(){
     $('.divisionopaque').show();
     $('#calendarImage').show();

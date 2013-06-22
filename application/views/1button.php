@@ -14,9 +14,12 @@
 
 <div id="wrapper">
 	<div id="pageContent">
-		<a href="<?php echo $buttons[0]['link'];?>">
+		<?php if(!isset($update)) :?>
+			<a href="<?php echo $buttons[0]['link'];?>">
+		<?php endif ?>
+		
 		<div class="oneButton">
-			<img src="<?php echo $buttons[0]['image'];?>">
+			<img id="<?php if(isset($update)){ echo 'changeText';}?>" src="<?php echo $buttons[0]['image'];?>">
 			<?php echo $buttons[0]['title']; ?>
 
 
@@ -25,9 +28,9 @@
 				<?php echo $buttons[1]['title']; ?>
 			<?php endif ?>
 
-
-			<!-- <img src="<?php if(isset($buttons[1])){ echo $buttons[1]['image'];}?>">
-			<?php echo $buttons[1]['title']; ?> -->
-		</div></a>
+		</div>
+		<?php if(!isset($update)) :?>
+			</a>
+		<?php endif ?>
 	</div>
 </div>

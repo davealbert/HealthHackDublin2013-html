@@ -278,3 +278,7 @@ a:active {
 	position: absolute;
 	margin-top: -1146px;
 }
+#changeText
+{
+	cursor: pointer;
+}
