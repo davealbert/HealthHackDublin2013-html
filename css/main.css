@@ -245,6 +245,7 @@ hr {
 	border-bottom-right-radius:20px;
 	padding:22px 0 0 10px;
 	margin-left: 890px;
+	cursor: pointer;
 }
 #logButton p
 {

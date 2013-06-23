@@ -24,9 +24,9 @@
 		</div>
 		<div id="wrapper">
 			<img id="dummy" src="<?php echo base_url();?>img/dummytext.png">
+			<img id="calendarImage" src="<?php echo base_url();?>img/june2013.png">
+			<img id="keypadImage" src="<?php echo base_url();?>img/TouchKeyboard.png">
 		</div>
-		<img id="calendarImage" src="<?php echo base_url();?>img/june2013.png">
-		<img id="keypadImage" src="<?php echo base_url();?>img/TouchKeyboard.png">
 		<!-- <embed src="<?php echo base_url();?>img/FT.mp3" autostart=false width=1 height=1 id="sound1"
 enablejavascript="true"> -->
 <!-- <div id="mp3div"></div> -->
