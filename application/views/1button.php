@@ -2,7 +2,7 @@
 .oneButton {
 	background-color: white;
 	width: 980px;
-	height:438px;
+	height:342px;
 	/*margin: 22px 22px 0 22px;*/
 	float:left;
 	color:#2c2c2c;

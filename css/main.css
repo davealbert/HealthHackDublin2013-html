@@ -175,9 +175,9 @@ hr {
   display: none;
   position: fixed;
   left: 50%;
-  top:34px;
+  top:25px;
   z-index:20;
-  margin-left: -350px;
+  margin-left: -300px;
   cursor: pointer;
 }
 .stopbox p
@@ -203,13 +203,13 @@ hr {
 #pageContent
 {
 	padding: 22px 11px 0 22px;
-	height:438px;
+	height:342px;
 }
 
 .twoButton {
 	background-color: white;
 	width: 484px;
-	height:398px;
+	height:302px;
 	margin: 0 11px 0 0;
 	padding-top: 40px;
 	float:left;
@@ -221,14 +221,14 @@ hr {
 .fourbutton {
 	background-color: white;
 	width: 484px;
-	height:203px;
+	height:162px;
 	margin: 0 11px 11px 0;
 	float:left;
 	color:#2c2c2c;
-	font-size: 55px;
+	font-size: 40px;
 	text-align: center;
 	border-radius:20px;
-	padding-top: 10px;
+	padding-top: 3px;
 }
 .fourbutton i
 {
@@ -276,7 +276,7 @@ a:active {
 	z-index:30;
 	display: none;
 	position: absolute;
-	margin-top: -1146px;
+	margin-top: -1028px;
 }
 #changeText,#calendar,#calendarImage,#keyboard
 {
@@ -287,16 +287,16 @@ a:active {
 	position:absolute;
 	display:none;
 	z-index:99999;
-	top:100px;
+	top:68px;
 	left:50%;
-	margin-left: -465px;
+	margin-left: -475px;
 }
 #keypadImage
 {
 	position:absolute;
 	display:none;
 	z-index:99999;
-	top:238px;
+	top:142px;
 	left:50%;
 	margin-left: -512px;
 }

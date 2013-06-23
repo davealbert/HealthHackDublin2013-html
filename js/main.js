@@ -20,7 +20,7 @@ $(document).ready(function () {
   $('#logButton').click(function(){
     $('.divisionopaque').show();
     $('#dummy').show();
-    $('#dummy').css({"margin-top":"-790px"});
+    $('#dummy').css({"margin-top":"-680px"});
   });
   $('#dummy').click(function(){
     $('.divisionopaque').hide();

@@ -14,8 +14,8 @@
 		</div>
 		<div class="divisionopaque hideclass"></div>
 		<div class="stopbox hideclass">
-			<img src="<?php echo base_url();?>img/stopsign.png">
-			<div style="margin-top:-500px;">
+			<img style="width:600px;" src="<?php echo base_url();?>img/stopsign.png">
+			<div style="margin-top:-450px;">
 				<p style="font-size:130px;">HELP</p>
 				<p style="margin-top:130px;">I've been waiting for</p>
 				<p id="timer" style="margin-top:50px;">0:00</p>
@@ -29,7 +29,7 @@
 		<img id="keypadImage" src="<?php echo base_url();?>img/TouchKeyboard.png">
 		<!-- <embed src="<?php echo base_url();?>img/FT.mp3" autostart=false width=1 height=1 id="sound1"
 enablejavascript="true"> -->
-<div id="mp3div"></div>
+<!-- <div id="mp3div"></div> -->
 	</body>
 </html>
 
